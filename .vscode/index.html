@@ -1,30 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <main class="bg-black text-white">
-        <nav class="py-5 px-7 flex justify-between">
+    <main class="bg-black text-white px-8 md:px-16 lg:px-24">
+        <nav class="py-5 px-7 flex justify-between mb-8">
             <div>
-                <h2 class ="text-2xl font-bold font-pacifico">Gerry</h2>
+                <h2 class="text-2xl font-bold font-pacifico cursor-pointer">Gerry</h2>
+            </div>
+            <div class="flex gap-20">
+                <a class="hover:underline" href="#">Home</a>
+                <a class="hover:underline" href="#">About Me</a>
+                <a class="hover:underline" href="#">Service</a>
+                <a class="hover:underline" href="#">Project</a>
+                <a class="hover:underline" href="#">Contact Me</a>
             </div>
             <div>
-                <a href="#">Home</a>
-                <a href="#">About Me</a>
-                <a href="#">Service</a>
-                <a href="#">Project</a>
-            </div>
-            <div>
-                <a href="#">Contact Me</a>
+                <button
+                    class="bg-gradient-to-l from-green-400 to-blue-500 font-bold md:transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Connect Me</button>
             </div>
         </nav>
+        <section class="mt-10">
+            <article class="py-20 flex justify-center gap-20">
+                <div>
+                    <h3>I'm UMUHIRE Germaine A Frontend Development</h3>
+                    <p>I specialized in building modern and responsive web applicationss</p>
+                    <button
+                        class="bg-gradient-to-l from-green-400 to-blue-500 font-bold md:transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Contact
+                        with Me </button>
+                </div>
+                <div>
+                    <img class="w-60 h-60 rounded-full" src="./picture/12.jpeg">
+                </div>
+            </article>
+        </section>
+        <section class="py-20 mx-auto max-w-6xl">
+            <div>
+                <h1 class="font-bold text-2xl text-center mb-12 cursor-pointer">About Me</h1>
+            </div>
+            <div class="flex flex-col md:flex-row items-start gap-12 mb-20">
+
+                <img class="w-72 h-70 rounded object-cover mb-12" src="./picture/12-removebg-preview.png"
+                    alt="Profile Picture">
+
+
+                <div class="flex-1 space-y-6">
+                    <p class="text-lg">
+                        I'm a frontend developer passionate about creating clean, responsive, and user-friendly web
+                        experiences.
+                        Skilled in HTML, CSS, JavaScript, and Tailwind CSS, I enjoy turning ideas into interactive
+                        interfaces.
+                        I value good design, performance, and continuous learning to stay ahead in the ever-evolving
+                        world of
+                        web development.
+                    </p>
+
+                    <div class="mb-12 flex items-center gap-4">
+                        <label class="w-32">UI & UX design</label>
+                        <div class="grow bg-gray-800 rounded-full h-2.5">
+                            <div class="bg-gradient-to-l from-green-400 to-blue-500 h-2.5 rounded-full w-11/12"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-12 flex items-center gap-4">
+                        <label class="w-32">HTML & CSS</label>
+                        <div class="grow bg-gray-800 rounded-full h-2.5">
+                            <div class="bg-gradient-to-l from-green-400 to-blue-500 h-2.5 rounded-full w-10/12"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="flex items-center gap-4">
+                        <label class="w-32">Tailwind CSS</label>
+                        <div class="grow bg-gray-800 rounded-full h-2.5">
+                            <div class="bg-gradient-to-l from-green-400 to-blue-500 h-2.5 rounded-full w-7/12"></div>
+                        </div>
+                    </div>
+                    <div class="mt-12 flex justify-between  text-center">
+                        <div>
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                1 +</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div>
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                5 +</h3>
+                            <p>Project Complete</p>
+                        </div>
+                        <div>
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                5 +</h3>
+                            <p>Project Complete</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1 class="font-bold text-2xl text-center mb-12 cursor-pointer">My Services</h1>
+            </div>
+            <div>
+                <div class="">
+                    <div class="flex flex-col md:flex-row md:gap-8 gap-6">
+
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
+                            <h2 class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                1</h2>
+                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                Graphic Design</h3>
+                            <p class="text-lg text-white mt-2">
+                                I'm a graphic designer who creates clean, eye-catching visuals that communicate ideas
+                                effectively and leave a strong impression.
+                            </p>
+                            <h4 class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">
+                                Read More</h4>
+                        </div>
+
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
+                            <h2 class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                2</h2>
+                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                UI & UX Designer</h3>
+                            <p class="text-lg text-white mt-2">
+                                I'm a UI/UX designer focused on creating intuitive, user-friendly interfaces that
+                                enhance the overall user experience and meet real needs.
+                            </p>
+                            <h4 class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">
+                                Read More</h4>
+                        </div>
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
+                            <h2 class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                3</h2>
+                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500"> Frontend Developer</h3>
+                            <p class="text-lg text-white mt-2">
+                                A frontend developer creates responsive, user-friendly web interfaces using HTML, CSS,
+                                and JavaScript, ensuring seamless interaction across all devices.
+                            </p>
+                            <h4  class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">Read More</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+        </section>
+        <section>
+            <div>
+                <h1 class="font-bold text-2xl text-center mb-12 cursor-pointer">My Project</h1>
+            </div>
+            <div>
+                <div class="">
+                    <div class="flex flex-col md:flex-row md:gap-8 gap-6 cursor-pointer">
+
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
+                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">Gorilla trekking</h3>
+                            <p class="text-lg text-white mt-2">
+                                Gorilla trekking offers a rare, thrilling experience—hiking through lush forests to observe wild gorillas up close in their natural habitat 🌿🦍.
+                            </p>
+                         <button class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">View More</button>
+                        </div>
+
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
+                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                Coffe Shop</h3>
+                            <p class="text-lg text-white mt-2">
+                                A coffee shop is a cozy place to enjoy fresh coffee, relax, socialize, or work in a warm, welcoming atmosphere ☕.
+                            </p>
+                            <button class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline"><a href="https://rococo-kleicha-bcc56b.netlify.app/"></a>View More</button>
+                        </div>
+                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
+                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">Person Expenses</h3>
+                            <p class="text-lg text-white mt-2">
+                            A project focused on personal experiences, highlighting unique stories, emotions, and lessons to inspire, connect, and foster understanding. 📖
+                            </p>
+                            <button class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline"> <a href="https://gerry11.netlify.app/"></a>View More</button>
+                        </div>
+
+                    </div>
+                </div>
+
+        </section>
+
     </main>
 </body>
+
 </html>
