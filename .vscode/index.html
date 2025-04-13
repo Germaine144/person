@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -20,7 +21,7 @@
             <div>
                 <h2 class="text-2xl font-bold font-pacifico cursor-pointer">Gerry</h2>
             </div>
-            <div class="flex gap-20">
+            <div class="flex flex-wrap gap-4 md:gap-20 justify-center md:justify-end w-full md:w-auto sm:gap-10">
                 <a class="hover:underline" href="#">Home</a>
                 <a class="hover:underline" href="#">About Me</a>
                 <a class="hover:underline" href="#">Service</a>
@@ -29,17 +30,25 @@
             </div>
             <div>
                 <button
-                    class="bg-gradient-to-l from-green-400 to-blue-500 font-bold md:transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Connect Me</button>
+                    class="bg-gradient-to-l from-green-400 to-blue-500 font-bold md:transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Connect
+                    Me</button>
             </div>
         </nav>
         <section class="mt-10">
-            <article class="py-20 flex justify-center gap-20">
+            <article
+                class="py-12 sm:py-16 md:py-20 flex flex-col sm:flex-row justify-center gap-8 sm:gap-10 md:gap-20 items-center">
                 <div>
-                    <h3>I'm UMUHIRE Germaine A Frontend Development</h3>
-                    <p>I specialized in building modern and responsive web applicationss</p>
-                    <button
-                        class="bg-gradient-to-l from-green-400 to-blue-500 font-bold md:transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Contact
-                        with Me </button>
+                    <h3 class="mb-4 text-center">I'm UMUHIRE Germaine A Frontend Development</h3>
+                    <p class="w-full max-w-xl mx-12 break-words mb-6 ">
+                        Building Beautiful, User-Friendly Web Experiences — One Pixel at a Time. This reflects your
+                        focus on creating visually appealing and functional websites. If you’d like something different.
+                    </p>
+                    <div class="flex justify-center">
+                        <button
+                            class="bg-gradient-to-l from-green-400 to-blue-500 font-bold md:transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">
+                            Contact with Me
+                        </button>
+                    </div>
                 </div>
                 <div>
                     <img class="w-60 h-60 rounded-full" src="./picture/12.jpeg">
@@ -54,34 +63,27 @@
 
                 <img class="w-72 h-70 rounded object-cover mb-12" src="./picture/12-removebg-preview.png"
                     alt="Profile Picture">
-
-
                 <div class="flex-1 space-y-6">
                     <p class="text-lg">
                         I'm a frontend developer passionate about creating clean, responsive, and user-friendly web
-                        experiences.
-                        Skilled in HTML, CSS, JavaScript, and Tailwind CSS, I enjoy turning ideas into interactive
-                        interfaces.
-                        I value good design, performance, and continuous learning to stay ahead in the ever-evolving
-                        world of
+                        experiences.Skilled in HTML, CSS, JavaScript, and Tailwind CSS, I enjoy turning ideas into
+                        interactive
+                        interfaces.I value good design, performance, and continuous learning to stay ahead in the
+                        ever-evolving world of
                         web development.
                     </p>
-
                     <div class="mb-12 flex items-center gap-4">
                         <label class="w-32">UI & UX design</label>
                         <div class="grow bg-gray-800 rounded-full h-2.5">
                             <div class="bg-gradient-to-l from-green-400 to-blue-500 h-2.5 rounded-full w-11/12"></div>
                         </div>
                     </div>
-
                     <div class="mb-12 flex items-center gap-4">
                         <label class="w-32">HTML & CSS</label>
                         <div class="grow bg-gray-800 rounded-full h-2.5">
                             <div class="bg-gradient-to-l from-green-400 to-blue-500 h-2.5 rounded-full w-10/12"></div>
                         </div>
                     </div>
-
-
                     <div class="flex items-center gap-4">
                         <label class="w-32">Tailwind CSS</label>
                         <div class="grow bg-gray-800 rounded-full h-2.5">
@@ -120,41 +122,51 @@
                     <div class="flex flex-col md:flex-row md:gap-8 gap-6">
 
                         <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
-                            <h2 class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                            <h2
+                                class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
                                 1</h2>
-                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
                                 Graphic Design</h3>
                             <p class="text-lg text-white mt-2">
                                 I'm a graphic designer who creates clean, eye-catching visuals that communicate ideas
                                 effectively and leave a strong impression.
                             </p>
-                            <h4 class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">
+                            <h4
+                                class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">
                                 Read More</h4>
                         </div>
 
                         <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
-                            <h2 class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                            <h2
+                                class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
                                 2</h2>
-                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
                                 UI & UX Designer</h3>
                             <p class="text-lg text-white mt-2">
                                 I'm a UI/UX designer focused on creating intuitive, user-friendly interfaces that
                                 enhance the overall user experience and meet real needs.
                             </p>
-                            <h4 class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">
+                            <h4
+                                class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer ">
                                 Read More</h4>
                         </div>
                         <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
-                            <h2 class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                            <h2
+                                class="text-right text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
                                 3</h2>
-                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500"> Frontend Developer</h3>
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                Frontend Developer</h3>
                             <p class="text-lg text-white mt-2">
                                 A frontend developer creates responsive, user-friendly web interfaces using HTML, CSS,
                                 and JavaScript, ensuring seamless interaction across all devices.
                             </p>
-                            <h4  class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">Read More</h4>
+                            <h4
+                                class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">
+                                Read More</h4>
                         </div>
-
                     </div>
                 </div>
 
@@ -165,38 +177,146 @@
             </div>
             <div>
                 <div class="">
-                    <div class="flex flex-col md:flex-row md:gap-8 gap-6 cursor-pointer">
+                    <div class="flex flex-col md:flex-row md:gap-8 gap-6">
 
                         <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
-                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">Gorilla trekking</h3>
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                Gorilla trekking</h3>
                             <p class="text-lg text-white mt-2">
-                                Gorilla trekking offers a rare, thrilling experience—hiking through lush forests to observe wild gorillas up close in their natural habitat 🌿🦍.
+                                Gorilla trekking offers a rare, thrilling experience—hiking through lush forests to
+                                observe wild gorillas up close in their natural habitat 🌿🦍.
                             </p>
-                         <button class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">View More</button>
+                            <button
+                                class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline"><a
+                                    href="https://dev-umuhire-germaine.pantheonsite.io/">View More</a> </button>
                         </div>
 
                         <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
-                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
                                 Coffe Shop</h3>
                             <p class="text-lg text-white mt-2">
-                                A coffee shop is a cozy place to enjoy fresh coffee, relax, socialize, or work in a warm, welcoming atmosphere ☕.
+                                A coffee shop is a cozy place to enjoy fresh coffee, relax, socialize, or work in a
+                                warm, welcoming atmosphere ☕.
                             </p>
-                            <button class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline"><a href="https://rococo-kleicha-bcc56b.netlify.app/"></a>View More</button>
+                            <button
+                                class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline"><a
+                                    href="https://rococo-kleicha-bcc56b.netlify.app/">View More</a></button>
                         </div>
-                        <div class="bg-gray-900 p-6 rounded-lg shadow-lg flex-1">
-                            <h3 class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">Person Expenses</h3>
+                        <div class=" mb-12 p-6 rounded-lg shadow-lg flex-1">
+                            <h3
+                                class="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500">
+                                Person Expenses</h3>
                             <p class="text-lg text-white mt-2">
-                            A project focused on personal experiences, highlighting unique stories, emotions, and lessons to inspire, connect, and foster understanding. 📖
+                                A project focused on personal experiences, highlighting unique stories, emotions, and
+                                lessons to inspire, connect, and foster understanding. 📖
                             </p>
-                            <button class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline"> <a href="https://gerry11.netlify.app/"></a>View More</button>
+                            <button
+                                class="mt-4 text-left text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-400 to-blue-500 cursor-pointer hover:underline">
+                                <a href="https://gerry11.netlify.app/">View More</a></button>
                         </div>
-
                     </div>
                 </div>
-
         </section>
+        <section>
+            <h3 class="text-lg font-semibold mb-8 text-green-400">Contact With Me</h3>
+            <p class="text-lg font-semibold mb-4 ">let's talk</p>
+            <p class="text-lg font-semibold mb-8">Let’s talk! I’m open to projects, ideas, or questions—always happy to
+                connect and collaborate.</p>
+            <div class="flex flex-col md:flex-row gap-10 p-6 bg-gray-900 rounded-lg text-white">
+
+                <div class="md:w-1/2 space-y-4">
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="ri-mail-line mr-2 text-green-400"></i> umuhiregermaine12@gmail.com</li>
+                        <li><i class="ri-phone-fill mr-2 text-green-400"></i> (+250) 791593529</li>
+                        <li><i class="ri-map-pin-user-line mr-2 text-green-400"></i> Kicukiro, Kigali</li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <form class="space-y-4">
+                        <div>
+                            <label for="firstname" class="block font-medium mb-1">First Name:</label>
+                            <input id="firstname" type="text" placeholder="John" required
+                                class="w-full px-4 py-2 rounded-md border border-gray-300 text-black focus:outline-none focus:ring-2 focus:ring-green-400" />
+                        </div>
+
+                        <div>
+                            <label for="lastname" class="block font-medium mb-1">Last Name:</label>
+                            <input id="lastname" type="text" placeholder="Doe" required
+                                class="w-full px-4 py-2 rounded-md border border-gray-300 text-black focus:outline-none focus:ring-2 focus:ring-green-400" />
+                        </div>
+
+                        <div>
+                            <label for="email" class="block font-medium mb-1">E-mail ✉️:</label>
+                            <input id="email" type="email" placeholder="johndoe12@gmail.com" required
+                                class="w-full px-4 py-2 rounded-md border border-gray-300 text-black focus:outline-none focus:ring-2 focus:ring-green-400" />
+                        </div>
+
+                        <div>
+                            <label for="message" class="block font-medium mb-1">Message 📩:</label>
+                            <textarea id="message" rows="5" placeholder="Write your message here..." required
+                                class="w-full px-4 py-2 rounded-md border border-gray-300 text-black resize-none focus:outline-none focus:ring-2 focus:ring-green-400"></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="bg-gradient-to-l from-green-400 to-blue-500 text-white font-bold px-6 py-2 rounded-md hover:scale-105 transition-transform duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <section class="text-center py-6">
+                <div id="quoteBox" class="text-lg font-medium text-white dark:text-green-400">
+
+                </div>
+            </section>
+        </section>
+        <footer class="bg-gray-900 text-white py-10">
+            <div class="container mx-auto px-6 md:flex md:justify-between md:items-start gap-10">
+                <div class="mb-6 md:mb-0">
+                    <h2 class="text-2xl font-bold text-green-400">UMUHIRE Germaine</h2>
+                    <p class="mt-2 text-sm text-gray-400">
+                        Passionate frontend developer crafting sleek, user-friendly digital experiences.
+                    </p>
+                </div>
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-lg font-semibold mb-2 text-green-400">Quick Links</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><a href="#" class="hover:text-green-400 transition">Home</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Projects</a></li>
+                        <li><a href="#" class="hover:text-green-400 transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2 text-green-400">Contact</h3>
+                    <ul class="space-y-2 text-sm text-gray-300">
+                        <li><i class="ri-mail-line mr-2 text-green-400"></i> umuhiregermaine12@gmail.com</li>
+                        <li><i class="ri-phone-fill mr-2 text-green-400"></i> (+250) 791593529</li>
+                        <li><i class="ri-map-pin-user-line mr-2 text-green-400"></i> Kicukiro, Kigali</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
+                &copy; 2025 UMUHIRE Germaine. All rights reserved.
+            </div>
+        </footer>
 
     </main>
 </body>
+<script>
+    const quotes = [
+        "Code is like humor. When you have to explain it, it’s bad.",
+        "Stay hungry, stay foolish.",
+        "First, solve the problem. Then, write the code.",
+        "Great things never come from comfort zones.",
+        "Push yourself, because no one else is going to do it for you."
+    ];
+
+    const quoteBox = document.getElementById('quoteBox');
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    quoteBox.textContent = quotes[randomIndex];
+</script>
 
 </html>
